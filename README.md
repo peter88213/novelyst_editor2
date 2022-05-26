@@ -1,6 +1,6 @@
 # novelyst_editor
 
-A simple [novelyst](https://peter88213.github.io/novelyst/) scene editor plugin based on the *tkinter.scrolledtext* widget.
+A simple [novelyst](https://peter88213.github.io/novelyst/) single-scene editor plugin based on the *tkinter.scrolledtext* widget.
 
 Edit the selected scene, if the project is not locked.
 

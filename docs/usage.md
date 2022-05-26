@@ -2,7 +2,7 @@
 
 --- 
 
-The *novelyst* Python program provides a tree view for yWriter projects.
+A simple [novelyst](https://peter88213.github.io/novelyst/) single-scene editor plugin based on the *tkinter.scrolledtext* widget.
 
 ### Installation
 
