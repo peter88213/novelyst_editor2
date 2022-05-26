@@ -1,6 +1,6 @@
-"""A scene editor plugin for novelyst.
+"""A single-scene editor plugin for novelyst.
 
-Compatibility: novelyst v0.14.1 API 
+Compatibility: novelyst v0.16.0 API 
 Requires Python 3.6+
 Copyright (c) 2022 Peter Triesberger
 For further information see https://github.com/peter88213/novelyst_editor
@@ -13,19 +13,16 @@ from tkinter import messagebox
 APPLICATION = 'Scene Editor'
 PLUGIN = f'{APPLICATION} plugin v@release'
 
-KEY_QUIT_PROGRAM = ('<Control-q>', 'Ctrl-Q')
-KEY_APPLY_CHANGES = ('<Control-s>', 'Ctrl-S')
-
 
 class Plugin:
-    """novelyst scene editor plugin class.
+    """novelyst single-scene editor plugin class.
     
     Public methods:
         on_quit() -- apply changes before closing the editor windows.       
     """
 
     def __init__(self, ui):
-        """Add a submenu to the main menu.
+        """Place a ScrolledText widget in novelyst's middle window.
         
         Positional arguments:
             ui -- reference to the NovelystTk instance of the application.
